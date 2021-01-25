@@ -31,6 +31,12 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation files('libs\\gson-2.8.2.jar')
+    implementation files('libs\\okio-3.0.0-alpha.1.jar')
+    implementation files('libs\\okhttp-4.10.0-RC1.jar')
+    implementation files('libs\\TingPhoneOpenSDK_7.4.1.jar')
+    implementation files('libs\\XmDownload_2.0.jar')
+    implementation files('libs\\XmlyOAuth2SDK_V2.0.jar')
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
